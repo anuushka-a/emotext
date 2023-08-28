@@ -1,0 +1,211 @@
+body{
+    background-color: black;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'VT323', monospace;
+}
+
+#main h1{
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+}
+
+#main>h1 span{
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+}
+
+#main> h1 span img{
+    rotate: 90deg;
+    height: 80px;
+    transition: 0.3s ease;
+}
+
+#main>#endec-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+    margin: 0%;
+    border-radius: 8px;
+    height: 4rem;
+}
+
+#main>#endec-div h3{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    padding-right: 2%;
+    margin-left: 20px;
+    margin-right: 10px;
+    transition: 0.2s ease;
+}
+
+#enc-btn{
+    background-color: #333;
+}
+
+#endec-div h3 span{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+#endec-div h3 span img{
+    height: 25px;
+}
+
+#encryption{
+    width: 45%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#encryption h5{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #6e6e6e;
+}
+
+#encryption textarea{
+    width: 100%;
+    height: 70px;
+    border: 1px solid #343434;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    outline: none;
+    background-color: #1c1c1c;
+}
+
+textarea, input{
+    color: #fff;
+      }
+
+#encryption input{
+    width: 100%;
+    border: 1px solid #343434;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    outline: none;
+    margin-bottom: 50px;
+    background-color: #1c1c1c;
+}
+
+#encryption button{
+    display: flex;
+    align-items: center;
+    background-color: #1c1c1c;
+    color: #6e6e6e;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    color: #eee;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+button span{
+    display: flex;
+    margin-right: 10px;
+}
+
+button span img{
+    height: 20px;
+}
+
+#decryption{
+    width: 45%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    display: none;
+}
+
+#decryption h5{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #6e6e6e;
+}
+
+#decryption textarea{
+    width: 100%;
+    height: 70px;
+    border: 1px solid #343434;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    outline: none;
+    background-color: #1c1c1c;
+}
+
+#decryption input{
+    width: 100%;
+    border: 1px solid #343434;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    outline: none;
+    margin-bottom: 50px;
+    background-color: #1c1c1c;
+}
+
+#decryption button{
+    display: flex;
+    align-items: center;
+    background-color: #1c1c1c;
+    color: #6e6e6e;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    color: #eee;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+button span{
+    display: flex;
+    margin-right: 10px;
+}
+
+button span img{
+    height: 20px;
+}
+
+#result{
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #1c1c1c;
+    border: 1px solid #343434;
+    width: 45%;
+    display: none;
+    margin-top: 40px;
+}
